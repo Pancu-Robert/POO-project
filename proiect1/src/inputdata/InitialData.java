@@ -1,4 +1,4 @@
-package inputData;
+package inputdata;
 
 import java.util.ArrayList;
 

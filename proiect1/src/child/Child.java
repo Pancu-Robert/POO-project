@@ -1,10 +1,10 @@
 package child;
 
-import Visitor.Visitable;
-import Visitor.Visitor;
+import visitor.Visitable;
+import visitor.Visitor;
 import enums.Category;
 import enums.Cities;
-import inputData.ChildData;
+import inputdata.ChildData;
 
 import java.util.ArrayList;
 
@@ -19,14 +19,12 @@ public abstract class Child implements Visitable {
     private ArrayList<Double> niceScoreHistory;
 
     @Override
-    public void accept(Visitor v) {
-        v.visit(this);
-    }
+    public abstract void accept(Visitor v);
 
     public Child() {
     }
 
-    public Child (ChildData childData) {
+    public Child(final ChildData childData) {
         this.id = childData.getId();
         this.lastName = childData.getLastName();
         this.firstName = childData.getFirstName();
@@ -42,7 +40,7 @@ public abstract class Child implements Visitable {
         return id;
     }
 
-    public final void setId(int id) {
+    public final void setId(final int id) {
         this.id = id;
     }
 
@@ -50,7 +48,7 @@ public abstract class Child implements Visitable {
         return lastName;
     }
 
-    public final void setLastName(String lastName) {
+    public final void setLastName(final String lastName) {
         this.lastName = lastName;
     }
 
@@ -58,7 +56,7 @@ public abstract class Child implements Visitable {
         return firstName;
     }
 
-    public final void setFirstName(String firstName) {
+    public final void setFirstName(final String firstName) {
         this.firstName = firstName;
     }
 
@@ -66,7 +64,7 @@ public abstract class Child implements Visitable {
         return city;
     }
 
-    public final void setCity(Cities city) {
+    public final void setCity(final Cities city) {
         this.city = city;
     }
 
@@ -74,7 +72,7 @@ public abstract class Child implements Visitable {
         return age;
     }
 
-    public final void setAge(int age) {
+    public final void setAge(final int age) {
         this.age = age;
     }
 
@@ -82,7 +80,7 @@ public abstract class Child implements Visitable {
         return categories;
     }
 
-    public final void setCategories(ArrayList<Category> categories) {
+    public final void setCategories(final ArrayList<Category> categories) {
         this.categories = categories;
     }
 
@@ -90,7 +88,7 @@ public abstract class Child implements Visitable {
         return averageScore;
     }
 
-    public final void setAverageScore(Double averageScore) {
+    public final void setAverageScore(final Double averageScore) {
         this.averageScore = averageScore;
     }
 
@@ -98,7 +96,38 @@ public abstract class Child implements Visitable {
         return niceScoreHistory;
     }
 
-    public final void setNiceScoreHistory(ArrayList<Double> niceScoreHistory) {
+    public final void setNiceScoreHistory(final ArrayList<Double> niceScoreHistory) {
         this.niceScoreHistory = niceScoreHistory;
+    }
+
+    public final void incrementAge() {
+        this.age++;
+    }
+
+    public final void addPreferences(final ArrayList<Category> newPreferences) {
+        newPreferences.addAll(this.categories);
+        ArrayList<Category> auxList = new ArrayList<>();
+
+//        for (Category category : newPreferences) {
+//            if (!auxList.contains(category)) {
+//                auxList.add(category);
+//            }
+//        }
+
+        for (Category category : newPreferences) {
+            boolean found = false;
+            for (Category category2 : auxList) {
+                if (category2.getValue().equals(category.getValue())) {
+                    found = true;
+                    break;
+                }
+            }
+            if (!found) {
+                auxList.add(category);
+            }
+        }
+
+        this.getCategories().clear();
+        this.getCategories().addAll(auxList);
     }
 }

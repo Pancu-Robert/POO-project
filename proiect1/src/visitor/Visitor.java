@@ -1,4 +1,4 @@
-package Visitor;
+package visitor;
 
 import child.Baby;
 import child.Child;

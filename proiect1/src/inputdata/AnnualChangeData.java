@@ -1,8 +1,8 @@
-package inputData;
+package inputdata;
 
 import java.util.ArrayList;
 
-public class AnnualChangeData {
+public final class AnnualChangeData {
     private double newSantaBudget;
     private ArrayList<GiftData> newGifts;
     private ArrayList<ChildData> newChildren;

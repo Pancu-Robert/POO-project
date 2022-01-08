@@ -1,7 +1,7 @@
 package fileio;
 
-import inputData.AnnualChangeData;
-import inputData.InitialData;
+import inputdata.AnnualChangeData;
+import inputdata.InitialData;
 
 import java.util.ArrayList;
 

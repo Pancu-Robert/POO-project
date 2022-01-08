@@ -1,10 +1,10 @@
 package child;
 
-import Visitor.Visitor;
-import inputData.ChildData;
+import visitor.Visitor;
+import inputdata.ChildData;
 
 public final class Teen extends Child {
-    public Teen(ChildData childData) {
+    public Teen(final ChildData childData) {
         super(childData);
     }
 
@@ -13,7 +13,7 @@ public final class Teen extends Child {
         v.visit(this);
     }
 
-    public Teen(Child child) {
+    public Teen(final Child child) {
         this.setId(child.getId());
         this.setLastName(child.getLastName());
         this.setFirstName(child.getFirstName());

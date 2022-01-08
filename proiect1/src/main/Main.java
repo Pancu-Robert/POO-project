@@ -5,6 +5,8 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import common.Constants;
 import database.Database;
 import fileio.Input;
+import fileio.Writer;
+import outputData.OutputData;
 
 import java.io.File;
 import java.io.IOException;
@@ -28,6 +30,9 @@ public final class Main {
             File inputFile = new File(Constants.TESTS_PATH + i + Constants.FILE_EXTENSION);
             Input input = objectMapper.readValue(inputFile, Input.class);
             Database.initDatabase(input);
+            OutputData outputData = Database.Executor.runSimulation();
+            Writer writer = new Writer();
+            writer.writeOutput(outputData, i);
         }
         Checker.calculateScore();
     }

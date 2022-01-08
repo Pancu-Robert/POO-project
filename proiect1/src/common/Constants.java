@@ -1,7 +1,5 @@
 package common;
 
-import javax.print.StreamPrintServiceFactory;
-
 public final class Constants {
     public static final String OUTPUT_PATH = "output/out_";
     public static final String REF_PATH = "ref/ref_test";

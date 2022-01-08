@@ -2,23 +2,55 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d662010a-d6c5-4bb5-92a6-5b13c2206c94" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/checkstyle.txt" beforeDir="false" afterPath="$PROJECT_DIR$/checkstyle.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ref/ref_test1.json" beforeDir="false" afterPath="$PROJECT_DIR$/ref/ref_test1.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Visitor/ScoreCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/visitor/ScoreCalculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Visitor/Visitable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/visitor/Visitable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Visitor/Visitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/visitor/Visitor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/child/Baby.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/child/Baby.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/child/Child.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/child/Child.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/child/Kid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/child/Kid.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/child/Teen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/child/Teen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/database/Database.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/database/Database.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/enums/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/enums/Category.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fileio/Input.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fileio/Input.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fileio/Writer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fileio/Writer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/inputData/ChildUpdateData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/inputdata/ChildUpdateData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/inputdata/AnnualChangeData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/inputdata/AnnualChangeData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/inputdata/ChildData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/inputdata/ChildData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/inputdata/GiftData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/inputdata/GiftData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/inputdata/InitialData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/inputdata/InitialData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/inputdata/ChildData.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/inputdata/InitialData.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/fileio/Input.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/inputdata/ChildUpdateData.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/tests/test5.json" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/inputdata/AnnualChangeData.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/inputdata/GiftData.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/common/Constants.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/tests/test1.json" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/database/Database.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/main/Main.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/enums/Cities.java" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="21v2UmCFgudLtO2NUqgyGG5QiA1" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -29,11 +61,17 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="fileio" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -65,5 +103,17 @@
       <updated>1638807258397</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>

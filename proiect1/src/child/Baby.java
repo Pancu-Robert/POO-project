@@ -1,7 +1,7 @@
 package child;
 
-import Visitor.Visitor;
-import inputData.ChildData;
+import visitor.Visitor;
+import inputdata.ChildData;
 
 public final class Baby extends Child {
     @Override
@@ -9,11 +9,11 @@ public final class Baby extends Child {
         v.visit(this);
     }
 
-    public Baby(ChildData childData) {
+    public Baby(final ChildData childData) {
         super(childData);
     }
 
-    public Baby(Child child) {
+    public Baby(final Child child) {
         this.setId(child.getId());
         this.setLastName(child.getLastName());
         this.setFirstName(child.getFirstName());
