@@ -5,7 +5,7 @@ import enums.Cities;
 
 import java.util.ArrayList;
 
-public class ChildData {
+public final class ChildData {
     private int id;
     private String lastName;
     private String firstName;
@@ -21,7 +21,7 @@ public class ChildData {
         return id;
     }
 
-    public void setId(int id) {
+    public void setId(final int id) {
         this.id = id;
     }
 
@@ -29,7 +29,7 @@ public class ChildData {
         return lastName;
     }
 
-    public void setLastName(String lastName) {
+    public void setLastName(final String lastName) {
         this.lastName = lastName;
     }
 
@@ -37,7 +37,7 @@ public class ChildData {
         return firstName;
     }
 
-    public void setFirstName(String firstName) {
+    public void setFirstName(final String firstName) {
         this.firstName = firstName;
     }
 
@@ -45,7 +45,7 @@ public class ChildData {
         return age;
     }
 
-    public void setAge(int age) {
+    public void setAge(final int age) {
         this.age = age;
     }
 
@@ -53,7 +53,7 @@ public class ChildData {
         return city;
     }
 
-    public void setCity(Cities city) {
+    public void setCity(final Cities city) {
         this.city = city;
     }
 
@@ -61,7 +61,7 @@ public class ChildData {
         return niceScore;
     }
 
-    public void setNiceScore(Double niceScore) {
+    public void setNiceScore(final Double niceScore) {
         this.niceScore = niceScore;
     }
 
@@ -69,7 +69,7 @@ public class ChildData {
         return giftsPreferences;
     }
 
-    public void setGiftsPreferences(ArrayList<Category> giftsPreferences) {
+    public void setGiftsPreferences(final ArrayList<Category> giftsPreferences) {
         this.giftsPreferences = giftsPreferences;
     }
 }

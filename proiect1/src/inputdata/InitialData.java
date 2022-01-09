@@ -2,7 +2,7 @@ package inputdata;
 
 import java.util.ArrayList;
 
-public class InitialData {
+public final class InitialData {
     private ArrayList<ChildData> children;
     private ArrayList<GiftData> santaGiftsList;
 
@@ -10,7 +10,7 @@ public class InitialData {
         return children;
     }
 
-    public void setChildren(ArrayList<ChildData> children) {
+    public void setChildren(final ArrayList<ChildData> children) {
         this.children = children;
     }
 
@@ -18,7 +18,7 @@ public class InitialData {
         return santaGiftsList;
     }
 
-    public void setSantaGiftsList(ArrayList<GiftData> santaGiftsList) {
+    public void setSantaGiftsList(final ArrayList<GiftData> santaGiftsList) {
         this.santaGiftsList = santaGiftsList;
     }
 }

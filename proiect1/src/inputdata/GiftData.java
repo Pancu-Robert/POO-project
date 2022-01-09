@@ -2,7 +2,7 @@ package inputdata;
 
 import enums.Category;
 
-public class GiftData {
+public final class GiftData {
     private String productName;
     private double price;
     private Category category;
@@ -11,7 +11,7 @@ public class GiftData {
         return productName;
     }
 
-    public void setProductName(String productName) {
+    public void setProductName(final String productName) {
         this.productName = productName;
     }
 
@@ -19,7 +19,7 @@ public class GiftData {
         return price;
     }
 
-    public void setPrice(double price) {
+    public void setPrice(final double price) {
         this.price = price;
     }
 
@@ -27,7 +27,7 @@ public class GiftData {
         return category;
     }
 
-    public void setCategory(Category category) {
+    public void setCategory(final Category category) {
         this.category = category;
     }
 }

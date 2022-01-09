@@ -1,5 +1,9 @@
 package visitor;
 
 public interface Visitable {
-    public void accept(Visitor v);
+    /**
+     * Metoda de accept specifica Visitor pattern.
+     * @param v
+     */
+    void accept(Visitor v);
 }

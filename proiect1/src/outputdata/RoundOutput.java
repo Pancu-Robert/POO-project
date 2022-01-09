@@ -1,14 +1,14 @@
-package outputData;
+package outputdata;
 
 import java.util.ArrayList;
 
-public class RoundOutput {
+public final class RoundOutput {
     private ArrayList<ChildOutput> children;
 
     public RoundOutput() {
     }
 
-    public RoundOutput(ArrayList<ChildOutput> children) {
+    public RoundOutput(final ArrayList<ChildOutput> children) {
         this.children = children;
     }
 
@@ -16,7 +16,7 @@ public class RoundOutput {
         return children;
     }
 
-    public void setChildren(ArrayList<ChildOutput> children) {
+    public void setChildren(final ArrayList<ChildOutput> children) {
         this.children = children;
     }
 }

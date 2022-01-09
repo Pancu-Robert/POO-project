@@ -1,4 +1,4 @@
-package outputData;
+package outputdata;
 
 import child.Child;
 import enums.Category;
@@ -22,7 +22,7 @@ public final class ChildOutput {
     public ChildOutput() {
     }
 
-    public ChildOutput(Child child) {
+    public ChildOutput(final Child child) {
         this.id = child.getId();
         this.lastName = child.getLastName();
         this.firstName = child.getFirstName();
@@ -39,7 +39,7 @@ public final class ChildOutput {
         return id;
     }
 
-    public void setId(int id) {
+    public void setId(final int id) {
         this.id = id;
     }
 
@@ -47,7 +47,7 @@ public final class ChildOutput {
         return lastName;
     }
 
-    public void setLastName(String lastName) {
+    public void setLastName(final String lastName) {
         this.lastName = lastName;
     }
 
@@ -55,7 +55,7 @@ public final class ChildOutput {
         return firstName;
     }
 
-    public void setFirstName(String firstName) {
+    public void setFirstName(final String firstName) {
         this.firstName = firstName;
     }
 
@@ -63,7 +63,7 @@ public final class ChildOutput {
         return city;
     }
 
-    public void setCity(Cities city) {
+    public void setCity(final Cities city) {
         this.city = city;
     }
 
@@ -71,7 +71,7 @@ public final class ChildOutput {
         return age;
     }
 
-    public void setAge(int age) {
+    public void setAge(final int age) {
         this.age = age;
     }
 
@@ -79,7 +79,7 @@ public final class ChildOutput {
         return giftsPreferences;
     }
 
-    public void setGiftsPreferences(ArrayList<Category> giftsPreferences) {
+    public void setGiftsPreferences(final ArrayList<Category> giftsPreferences) {
         this.giftsPreferences = giftsPreferences;
     }
 
@@ -87,7 +87,7 @@ public final class ChildOutput {
         return averageScore;
     }
 
-    public void setAverageScore(double averageScore) {
+    public void setAverageScore(final double averageScore) {
         this.averageScore = averageScore;
     }
 
@@ -95,7 +95,7 @@ public final class ChildOutput {
         return niceScoreHistory;
     }
 
-    public void setNiceScoreHistory(ArrayList<Double> niceScoreHistory) {
+    public void setNiceScoreHistory(final ArrayList<Double> niceScoreHistory) {
         this.niceScoreHistory = niceScoreHistory;
     }
 
@@ -103,7 +103,7 @@ public final class ChildOutput {
         return assignedBudget;
     }
 
-    public void setAssignedBudget(double assignedBudget) {
+    public void setAssignedBudget(final double assignedBudget) {
         this.assignedBudget = assignedBudget;
     }
 
@@ -111,7 +111,7 @@ public final class ChildOutput {
         return receivedGifts;
     }
 
-    public void setReceivedGifts(ArrayList<GiftData> receivedGifts) {
+    public void setReceivedGifts(final ArrayList<GiftData> receivedGifts) {
         this.receivedGifts = receivedGifts;
     }
 }

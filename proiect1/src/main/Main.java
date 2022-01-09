@@ -6,7 +6,7 @@ import common.Constants;
 import database.Database;
 import fileio.Input;
 import fileio.Writer;
-import outputData.OutputData;
+import outputdata.OutputData;
 
 import java.io.File;
 import java.io.IOException;

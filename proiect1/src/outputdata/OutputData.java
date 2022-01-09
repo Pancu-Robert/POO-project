@@ -1,14 +1,14 @@
-package outputData;
+package outputdata;
 
 import java.util.ArrayList;
 
-public class OutputData {
+public final class OutputData {
     private ArrayList<RoundOutput> annualChildren;
 
     public OutputData() {
     }
 
-    public OutputData(ArrayList<RoundOutput> annualChildren) {
+    public OutputData(final ArrayList<RoundOutput> annualChildren) {
         this.annualChildren = annualChildren;
     }
 
@@ -16,7 +16,7 @@ public class OutputData {
         return annualChildren;
     }
 
-    public void setAnnualChildren(ArrayList<RoundOutput> annualChildren) {
+    public void setAnnualChildren(final ArrayList<RoundOutput> annualChildren) {
         this.annualChildren = annualChildren;
     }
 }

@@ -12,7 +12,7 @@ public final class AnnualChangeData {
         return newSantaBudget;
     }
 
-    public void setNewSantaBudget(double newSantaBudget) {
+    public void setNewSantaBudget(final double newSantaBudget) {
         this.newSantaBudget = newSantaBudget;
     }
 
@@ -20,7 +20,7 @@ public final class AnnualChangeData {
         return newGifts;
     }
 
-    public void setNewGifts(ArrayList<GiftData> newGifts) {
+    public void setNewGifts(final ArrayList<GiftData> newGifts) {
         this.newGifts = newGifts;
     }
 
@@ -28,7 +28,7 @@ public final class AnnualChangeData {
         return newChildren;
     }
 
-    public void setNewChildren(ArrayList<ChildData> newChildren) {
+    public void setNewChildren(final ArrayList<ChildData> newChildren) {
         this.newChildren = newChildren;
     }
 
@@ -36,7 +36,7 @@ public final class AnnualChangeData {
         return childrenUpdates;
     }
 
-    public void setChildrenUpdates(ArrayList<ChildUpdateData> childrenUpdates) {
+    public void setChildrenUpdates(final ArrayList<ChildUpdateData> childrenUpdates) {
         this.childrenUpdates = childrenUpdates;
     }
 }

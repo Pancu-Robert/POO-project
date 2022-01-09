@@ -100,29 +100,26 @@ public abstract class Child implements Visitable {
         this.niceScoreHistory = niceScoreHistory;
     }
 
+    /**
+     * mareste varsta copiilor cu 1 an.
+     */
     public final void incrementAge() {
         this.age++;
     }
 
+    /**
+     * In lista noua de preferinte adaug toate preferintele vechi, astfel preferintele noi
+     * se afla la inceputului listei. Dupa aceea, folosesc lista auxiliara si iterez prin lista
+     * noua de preferinte pentru a pune doar prefetinele unice din lista auxiliara.
+     * In final golesc lista initiala de prefertine si adaug lista auxiliara.
+     * @param newPreferences lista cu noile preferinte
+     */
     public final void addPreferences(final ArrayList<Category> newPreferences) {
         newPreferences.addAll(this.categories);
         ArrayList<Category> auxList = new ArrayList<>();
 
-//        for (Category category : newPreferences) {
-//            if (!auxList.contains(category)) {
-//                auxList.add(category);
-//            }
-//        }
-
         for (Category category : newPreferences) {
-            boolean found = false;
-            for (Category category2 : auxList) {
-                if (category2.getValue().equals(category.getValue())) {
-                    found = true;
-                    break;
-                }
-            }
-            if (!found) {
+            if (!auxList.contains(category)) {
                 auxList.add(category);
             }
         }

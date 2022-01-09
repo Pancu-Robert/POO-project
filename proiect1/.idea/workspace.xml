@@ -4,23 +4,21 @@
     <list default="true" id="d662010a-d6c5-4bb5-92a6-5b13c2206c94" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/checkstyle.txt" beforeDir="false" afterPath="$PROJECT_DIR$/checkstyle.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Visitor/ScoreCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/visitor/ScoreCalculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Visitor/Visitable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/visitor/Visitable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Visitor/Visitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/visitor/Visitor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/child/Baby.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/child/Baby.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/child/Child.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/child/Child.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/child/Kid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/child/Kid.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/child/Teen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/child/Teen.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/database/Database.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/database/Database.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/enums/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/enums/Category.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fileio/Input.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fileio/Input.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/fileio/Writer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fileio/Writer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/inputData/ChildUpdateData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/inputdata/ChildUpdateData.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/inputdata/AnnualChangeData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/inputdata/AnnualChangeData.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/inputdata/ChildData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/inputdata/ChildData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/inputdata/ChildUpdateData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/inputdata/ChildUpdateData.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/inputdata/GiftData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/inputdata/GiftData.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/inputdata/InitialData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/inputdata/InitialData.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/outputData/ChildOutput.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/outputdata/ChildOutput.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/outputData/OutputData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/outputdata/OutputData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/outputData/RoundOutput.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/outputdata/RoundOutput.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/visitor/ScoreCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/visitor/ScoreCalculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/visitor/Visitable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/visitor/Visitable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/visitor/Visitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/visitor/Visitor.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
