@@ -4,13 +4,13 @@ import visitor.Visitor;
 import inputdata.ChildData;
 
 public final class Kid extends Child {
-    public Kid(final ChildData childData) {
-        super(childData);
-    }
-
     @Override
     public void accept(final Visitor v) {
         v.visit(this);
+    }
+
+    public Kid(final ChildData childData) {
+        super(childData);
     }
 
     public Kid(final Child child) {

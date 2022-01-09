@@ -87,7 +87,7 @@ public final class Database {
     }
 
     /**
-     * mareste numarul de runde.
+     * mareste numarul de runde pe care se face simularea.
      */
     public static void incrementRoundCounter() {
         roundCounter++;

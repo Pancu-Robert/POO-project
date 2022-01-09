@@ -19,7 +19,7 @@ public final class ScoreCalculator implements Visitor {
     @Override
     public void visit(final Kid kid) {
         double sum = 0.0;
-        for (Double score: kid.getNiceScoreHistory()) {
+        for (Double score : kid.getNiceScoreHistory()) {
             sum += score;
         }
         kid.setAverageScore(sum / kid.getNiceScoreHistory().size());
